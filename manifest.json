@@ -1,0 +1,12 @@
+{
+  "name": "Couchsurfing AI Assistant",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "matches": ["https://www.couchsurfing.com/*"]
+    }
+  ]
+}
